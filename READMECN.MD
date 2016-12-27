@@ -2,7 +2,6 @@
 一款Intellj IDEA 和Android Studio的插件，可以为MVP生成接口以及实现类，解放双手。
 
 ### 适合泛型MVP的创建， [Arad](https://github.com/beanu/Arad)项目专用
-![image](https://github.com/githubwing/MVPHelper/raw/master/img/mvp_presenter.gif)
 
 ##注意
 对于MVP模式，定义一个Contract类来放置Model View Presenter 的接口，将大大减少类文件。将普通的接口替代如下：
@@ -26,17 +25,6 @@ public interface GoodsInfoContract {
 ![image](https://github.com/githubwing/MVPHelper/raw/master/img/mvp_contract.gif)
 
 ##如何使用
-## 在插件仓库搜索MVPHelper
-
-![image](https://github.com/githubwing/MVPHelper/raw/master/img/repositories.png)
-
-
-
-
-
-# 或者
-
-
 
 ###第一步
 

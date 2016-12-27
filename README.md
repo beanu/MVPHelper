@@ -2,11 +2,7 @@
 A plugin for Intellj IDEA &amp; Android Studio which can help you create interfaces and classes of MVP.
 
 ### 适合泛型MVP的创建， [Arad](https://github.com/beanu/Arad)项目专用
-##[中文文档](https://github.com/githubwing/MVPHelper/blob/master/READMECN.MD)
-
-![image](https://github.com/githubwing/MVPHelper/raw/master/img/mvp_presenter.gif)
-
-
+##[中文文档](https://github.com/beanu/MVPHelper/blob/master/READMECN.MD)
 
 ##Tips
 
@@ -31,15 +27,6 @@ Use this helper in Contract, it will
 ![image](https://github.com/githubwing/MVPHelper/raw/master/img/mvp_contract.gif)
 
 ##How To Use
-### Searth 'MVPHelper' in Repositories
-
- ![image](https://github.com/githubwing/MVPHelper/raw/master/img/repositories.png)
-
-
-
-# or
-
-
 
 ###Step1
 
