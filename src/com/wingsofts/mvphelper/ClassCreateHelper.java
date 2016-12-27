@@ -107,8 +107,15 @@ public class ClassCreateHelper {
         writer.newLine();
         writer.newLine();
         if(tag == CONTRACT) {
-            writer.write("public class " + className + type + "Impl implements " +
-                    classFullName + "."  + type + "{");
+
+            if(type.equals("Presenter")){
+                writer.write("public class " + className + type + "Impl extends " +
+                        classFullName + "."  + type + "{");
+            }else{
+                writer.write("public class " + className + type + "Impl implements " +
+                        classFullName + "."  + type + "{");
+            }
+
         }else if(tag == PRESENTER){
 
             writer.write("public class " + className+type + "Impl implements " +

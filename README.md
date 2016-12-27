@@ -1,7 +1,7 @@
 # MVPHelper
 A plugin for Intellj IDEA &amp; Android Studio which can help you create interfaces and classes of MVP.
 
-### 目前包名判断是以 cn/com/org/net/me/io 开头判断的，如大家的项目(非demo)有其他情况(例如me.ele.eleme)，会导致import报错等问题，请发起issues告知包名开头，来修改统计。
+### 适合泛型MVP的创建， [Arad](https://github.com/beanu/Arad)项目专用
 ##[中文文档](https://github.com/githubwing/MVPHelper/blob/master/READMECN.MD)
 
 ![image](https://github.com/githubwing/MVPHelper/raw/master/img/mvp_presenter.gif)
@@ -17,7 +17,7 @@ public interface GoodsInfoContract {
   public interface View{
 
   }
-  public interface Presenter{
+  public abstract class Presenter extends BasePresenter<View,Model>{
 
   }
   public interface Model{
@@ -43,7 +43,7 @@ Use this helper in Contract, it will
 
 ###Step1
 
-Download [MVPHelper.jar](https://github.com/githubwing/MVPHelper/raw/master/MVPHelper.jar)
+Download [MVPHelper.zip](https://github.com/beanu/MVPHelper/raw/master/MVPHelper.zip)
 ###Step2
 install plugin.
 

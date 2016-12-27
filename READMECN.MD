@@ -1,7 +1,7 @@
 # MVPHelper
 一款Intellj IDEA 和Android Studio的插件，可以为MVP生成接口以及实现类，解放双手。
 
-## 目前包名判断是以 cn com org 开头判断的，如大家的项目(非demo)有其他情况(例如me.eleme.eleme)，会导致import报错等问题，请发起issues告知包名开头，来修改统计。
+### 适合泛型MVP的创建， [Arad](https://github.com/beanu/Arad)项目专用
 ![image](https://github.com/githubwing/MVPHelper/raw/master/img/mvp_presenter.gif)
 
 ##注意
@@ -12,7 +12,7 @@ public interface GoodsInfoContract {
   public interface View{
 
   }
-  public interface Presenter{
+  public abstract class Presenter extends BasePresenter<View,Model>{
 
   }
   public interface Model{
@@ -40,7 +40,7 @@ public interface GoodsInfoContract {
 
 ###第一步
 
-下载[MVPHelper.jar](https://github.com/githubwing/MVPHelper/raw/master/MVPHelper.jar)
+下载[MVPHelper.zip](https://github.com/beanu/MVPHelper/raw/master/MVPHelper.zip)
 ###第二步
 安装插件
 
